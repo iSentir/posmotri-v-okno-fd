@@ -1,0 +1,17 @@
+* text=auto
+*.sh text eol=lf
+*.md text
+*.json text
+*.js text
+*.ts text
+*.css text
+*.scss text
+*.html text
+*.svg text
+*.txt text
+
+# Бинарные файлы — чтобы Git их не трогал
+*.png binary
+*.jpg binary
+*.gif binary
+*.pdf binary

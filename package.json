@@ -1,0 +1,28 @@
+{
+  "name": "posmotri-v-okno-fd",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/iSentir/posmotri-v-okno-fd#readme",
+  "bugs": {
+    "url": "https://github.com/iSentir/posmotri-v-okno-fd/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iSentir/posmotri-v-okno-fd.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "lint": "stylelint \"**/*.{css,scss}\"",
+    "lintfix": "stylelint \"**/*.{css,scss}\" --fix"
+  },
+  "devDependencies": {
+    "@stylistic/stylelint-plugin": "^5.3.0",
+    "postcss-scss": "^4.0.9",
+    "stylelint": "^17.15.0",
+    "stylelint-config-standard": "^40.0.0"
+  }
+}
